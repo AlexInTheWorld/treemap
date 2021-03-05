@@ -1,0 +1,20 @@
+body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.legend-item {
+  stroke: black;
+  stroke-width: 2;
+  opacity: 0.8;
+}
+
+.tooltip {
+  position: absolute;
+  pointer-events: none;
+  padding: 10px;
+  font: 12px Arial;
+  background: gray;
+  box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.6);
+  border-radius: 2px;
+}
